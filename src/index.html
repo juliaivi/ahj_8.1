@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat</title>
+</head>
+<body>
+	<div id="root">
+    <div class="popup">
+      <form class="popup__form">
+    
+          <h2 class="title">Выбери псевдоним</h2>
+          <input class="input__title" required>
+          <button class="btn btn__send">Продолжить</button>  
+          <div class="error__name d__none">
+            <p class="error__text">Такое имя уже существует</p>
+          </div>
+       
+      </form>
+    </div>
+    <div class="container d__none">
+
+      <div class="connection__container">
+        <ul class="connection__users">
+          <li class="connection__user">
+            <p class="connection__prewiew"></p>
+            <p class="user">jghjg(You)</p>
+          </li>
+
+          <li class="connection__user">
+            <p class="connection__prewiew"></p>
+            <p class="user">ui</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="chat__container">
+        <div class="chat">
+          <div class="message__container">
+            <div class="message__you">
+              <span class="message__info ">fgvgg (You), 19:14 06.08.2023</span>
+              <p class="|message__text">Pam pam</p>
+            </div>
+          </div>
+
+          <div class="message__companion">
+            <span class="message__info ">ui, 19:14 06.08.2023</span>
+            <p class="|message__text">tam</p>
+          </div>
+        </div>
+        <div>
+          <form class="chat__send">
+          <input class="chat__message" placeholder="Type your message here">
+        </form>
+        </div>
+      </div>
+
+    <!-- <div class="connection__container">
+      <ul>
+        <li class="connection__user">
+          <div class="connection__prewiew"></div>
+          <p class="user">jghjg(You)</p>
+        </li>
+      </ul>
+    </div> -->
+    </div>
+    
+    
+    
+  </div>
+</body>
+</html>
