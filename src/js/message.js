@@ -1,11 +1,11 @@
-import creatsDate from "./creatDate";
+import creatsDate from './creatDate';
 
 export default function addmessage(name, text) {
-    const chat = document.querySelector('.chat');
-    const date = creatsDate();
+  const chat = document.querySelector('.chat');
+  const date = creatsDate();
 
-// логика на отображении я или не я message__container
-    const boxText = `
+  // логика на отображении я или не я message__container
+  const boxText = `
             <div class="connection-user">
                 <div class="message">
                     <span class="message__info ">${name}, ${date}</span>
@@ -13,9 +13,5 @@ export default function addmessage(name, text) {
                 </div>
             </div>
     `;
-    chat.insertAdjacentHTML('beforeend', boxText);
-
-   
+  chat.insertAdjacentHTML('beforeend', boxText);
 }
-
-
