@@ -1,8 +1,7 @@
 export default function addUserBlock(data, el) {
   const connectionUsers = document.querySelector('.connection__users');
-  // connectionUsers.replaceChildren();
 
-  if (data.name == el) {
+  if (data.name === el) {
     data.name = 'you';
   }
 
