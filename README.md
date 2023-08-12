@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/0nha2jw29ghxgeo4?svg=true)](https://ci.appveyor.com/project/juliaivi/ahj-8-1)
+
+
 # Домашнее задание к занятию "8. EventSource, Websockets"
 
 Правила сдачи задания:
